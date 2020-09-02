@@ -3,7 +3,7 @@ body{
 }
 
 .carousel-section-main{
-	width: 1103px;
+	width: 940px;
 	margin: 0 auto;
 }
 .carousel-staff{
@@ -38,12 +38,12 @@ body{
 }
 
 .staff-item img{
-	width: 148px;
+	width: 146px;
     border-radius: 98px;
     height: 154px;
 }
 .staff-item{
-	width: 80%;
+	width: 150px;
 	margin: 0 25px;
 }
 .staff-item h4{
@@ -67,5 +67,24 @@ body{
   	margin-left: 0;
   }
   .mr-0{
-  	margin-left: 0;
+  	margin-right: 0;
   }
+  .staff-section .owl-nav{
+    position: absolute;
+    top: -93px;
+    right: -60px;
+ }
+.fa-long-arrow-left{
+
+    padding: 11px 14px;
+    background: #ddd;	
+}
+
+.fa-long-arrow-right{
+	padding: 11px 14px;
+    background: #ddd;
+}
+.fa-long-arrow-left:hover,.fa-long-arrow-right:hover{
+	background: #14ADF3!important;
+	color: #fff;
+}
